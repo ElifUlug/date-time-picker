@@ -1,0 +1,146 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;;
+}
+
+.scroll-container{
+  /* background-color: rgb(228, 170, 170); */
+  width: 8rem;
+  height: 20rem;
+  overflow:auto;
+  border: 1px solid #d2d2d2;
+  border-radius: 0 1rem 1rem 0;
+}
+
+.buttonlist{
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.timeTitle{
+  font-size: 2rem;
+  background-color: #eaeaea;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+}
+
+.table>*{
+  /* background-color: wheat; */
+}
+
+
+.dateCon{
+  /* background-color: red; */
+  min-width: 30rem;
+  min-height: 20rem;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d2d2d2;
+  border-radius: 1rem 0 0 1rem;
+
+}
+
+.tableButtons{
+  margin-bottom: 1rem;
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #EEEEEE;
+  height: 3.1rem;
+  border-radius: 1rem 0 0 0;
+}
+
+.tableButtons button{
+  width: 2rem;
+  margin: 0 1rem;
+  border: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.tableButtons button:active{
+background-color: white;
+}
+
+.days{
+  /* background-color: blue; */
+  margin: 0 1rem;
+}
+table{
+  /* background-color: purple; */
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  /* padding: 1rem; */
+}
+.dateTable{
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem;
+  border: 1px solid #d2d2d2;
+  border-radius: 0.5rem;
+}
+
+.dayButton{
+  font-size: 1.5rem;
+  /* background-color: white; */
+  /* background-color: blue; */
+  /* color: white; */
+  height: 2rem;
+  width: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.dayButton:focus{
+  font-size: 1.5rem;
+  background-color: white;
+  background-color: blue;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:1rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 
+

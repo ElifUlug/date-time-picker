@@ -1,0 +1,27 @@
+/* .main{
+  display: flex;
+} */
+.tablePart{
+  display: flex;
+}
+
+.scroll-container {
+    background-color: aqua;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+  .scroll-container {
+    width: 75px;
+    height: 100px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+  .scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+  }
