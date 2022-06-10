@@ -15,21 +15,15 @@ const TimeComp = ({ setHours }) => {
         for (let i = 0; i < 24; i++) {
             const hour = String(i)
             // const minuteList= []
-            let k = 0
+            let k = "0".padStart(2, 0)
             for (let j = 0; j < 4; j++) {
                 const minute = String(k)
                 if (hour < 10) {
-                    hourList.push("0" + hour + ":" + minute)
-                    k = k + 15
-                    if (k === "0") {
-                        // k = k.padStart(2, 0)
-                        k = k.padStart(2, 0)
-                    } else {
-                        k = k
-                    }
+                    hourList.push('0' + hour + ":" + minute)
+                    k = Number(k) + 15
                 } else {
                     hourList.push(hour + ":" + minute)
-                    k = k + 15
+                    k = Number(k) + 15
                 }
             }
 
