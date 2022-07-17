@@ -6,6 +6,7 @@ const Satir = ({ dates, years, setselectedDate, tableMonths }) => {
         console.log(e.target.textContent);
         const day = e.target.textContent
         const selectedDate = tableMonths + " " + day + "," + years
+        console.log('selectedDate', selectedDate)
         setselectedDate(selectedDate)
     }
 
